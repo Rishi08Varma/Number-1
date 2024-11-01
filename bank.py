@@ -1,3 +1,5 @@
+#This comment is for the new assignment "git". If i did any mistakes in doing this assignment tell me in the comments 
+
 class BankAccount:
     def __init__(self, customer_id, name, starting_balance=0.0):
         self.customer_id = customer_id
@@ -42,7 +44,7 @@ class BankAccount:
 # Example usage
 if __name__ == "__main__":
     # Example 1
-    account1 = BankAccount(customer_id=1, name="John Doe", starting_balance=100.0)
+    account1 = BankAccount(customer_id=1, name="John Wick", starting_balance=100.0)
     account1.print_account_info()
     account1.deposit(50)
     account1.withdraw(30)
